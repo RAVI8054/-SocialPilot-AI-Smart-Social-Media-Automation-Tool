@@ -94,6 +94,7 @@ This isn’t just another content generator — it’s your all-in-one tool for 
 - Quick creation of multiple post variations for A/B testing
 
 ## Project Structure
+```
 social-media-post-generator/
 │── package.json
 │── next.config.js
@@ -110,7 +111,7 @@ social-media-post-generator/
 │   ├── social.ts              # NEW → helper functions for Instagram, LinkedIn, Twi
 │   ├── calendar.ts            # NEW → helper for Google Calendar API
 │   └── scheduler.ts           # NEW → background cron job to auto-post scheduled content
-
+```
 
 ## Installation Steps
 
@@ -133,22 +134,18 @@ social-media-post-generator/
    Create a `.env.local` file in the root directory with the following:
     ```bash
      GROQ_API_KEY=your_groq_api_key
-     # LinkedIn
-LINKEDIN_USER_ID=xxxx
-LINKEDIN_ACCESS_TOKEN=xxxx
-
-# Twitter
-TWITTER_BEARER_TOKEN=xxxx
-
-# Instagram
-INSTAGRAM_BUSINESS_ID=xxxx
-INSTAGRAM_ACCESS_TOKEN=xxxx
-TEST_IMAGE_URL=https://picsum.photos/600
-
-# Google Calendar
-GCAL_CLIENT_EMAIL=xxxx@project.iam.gserviceaccount.com
-GCAL_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nxxxx\n-----END PRIVATE KEY-----\n"
-
+     LinkedIn
+    LINKEDIN_USER_ID=xxxx
+    LINKEDIN_ACCESS_TOKEN=xxxx
+    Twitter
+    TWITTER_BEARER_TOKEN=xxxx
+    Instagram
+    INSTAGRAM_BUSINESS_ID=xxxx
+    INSTAGRAM_ACCESS_TOKEN=xxxx
+    TEST_IMAGE_URL=https://picsum.photos/600
+    Google Calendar
+    GCAL_CLIENT_EMAIL=xxxx@project.iam.gserviceaccount.com
+   GCAL_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nxxxx\n-----END PRIVATE KEY-----\n"
     ```
    
 5. Run the development server:
