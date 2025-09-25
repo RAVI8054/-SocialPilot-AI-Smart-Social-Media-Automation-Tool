@@ -67,7 +67,7 @@ This isn’t just another content generator — it’s your all-in-one tool for 
 
 
 ## Live Demo
-- **Live Demo:** [https://social-media-post-generator-black.vercel.app/](https://social-media-post-generator-black.vercel.app/)  
+- **Live Demo:** [] ()  
 - 🔹 Currently supports **AI content generation only**  
 - 🔹 To enable **auto-posting & scheduling**, configure social media APIs in `.env` (details below)
 
